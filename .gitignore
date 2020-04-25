@@ -5,6 +5,7 @@
 !*.go
 !*.proto
 !*.md
+!*.png
 
 !js-client
 !go-server
