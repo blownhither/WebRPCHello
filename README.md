@@ -2,6 +2,8 @@
 ##### A very simple demo for connecting grpc-web in browser to go gRPC backend.
 
 
+![Architecture](architecture.png)
+
 - Go gRPC server
   
     `hello.proto` defins a very simple gRPC service `SayHello` that can take and return a string. 
