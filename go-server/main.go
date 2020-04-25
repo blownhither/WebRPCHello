@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/blownhither/webhello"
+	"github.com/blownhither/WebRPCHello"
 	"google.golang.org/grpc"
 	"net"
 )
