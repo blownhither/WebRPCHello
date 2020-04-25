@@ -1,0 +1,25 @@
+<html>
+<head>
+    <script src="dist/bundle.js"></script>
+</head>
+<body>
+<label>
+    <input type="text" width="100px" id="text_box" />
+    <button onclick="buttonOnClick()">Submit</button>
+</label>
+<ul id="output_list">
+
+</ul>
+</body>
+<script>
+    function addToList(msg) {
+        let li = document.createElement("li");
+        li.textContent = msg;
+        document.getElementById("output_list").appendChild(li);
+    }
+
+    function buttonOnClick() {
+        let ret = SayHi(document.getElementById("text_box").value, addToList);
+    }
+</script>
+</html>
