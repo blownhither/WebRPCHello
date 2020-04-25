@@ -60,7 +60,7 @@
 
 - The Frontend
     
-    A text-based front-end is provided at `black.html`.
+    A text-based front-end is provided at `blank.html`.
     Open it in a browser, click on "submit" to invoke the RPC.
     Responses will be printed on DOM and in the console.  
 
