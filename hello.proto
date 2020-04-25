@@ -1,0 +1,14 @@
+syntax = "proto3";
+package webhello;
+option go_package = ".;webhello";
+
+service WebHello {
+    rpc SayHello(HelloMessage) returns (HelloMessage);
+}
+
+
+message HelloMessage {
+    string msg = 1;
+}
+
+

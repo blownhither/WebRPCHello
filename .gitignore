@@ -1,0 +1,10 @@
+*
+
+!.gitignore
+!grpcwebproxy-v0.9.1-osx-x86_64
+!*.go
+!*.proto
+!*.md
+
+!js-client
+!go-server
